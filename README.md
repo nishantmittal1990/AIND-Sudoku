@@ -3,11 +3,16 @@
 
 # Question 1 (Naked Twins)
 Q: How do we use constraint propagation to solve the naked twins problem?  
-A: *Student should provide answer here*
+A: Constraint propagation as a name itself suggests is a technique to apply certain constraints on the problem till the result is achieved or these is no more
+possibility.
+Naked Twins strategy is applied to reduce no. of possibilities while solving the sudoku grid. The strategy is to identify a pair of boxes belonging to the same
+set of peers that have the same 2 numbers as possibilities, and eliminate these two numbers from possibilities for all the other boxes lying in the same peer.
+
 
 # Question 2 (Diagonal Sudoku)
 Q: How do we use constraint propagation to solve the diagonal sudoku problem?  
-A: *Student should provide answer here*
+A: In case of diagonal grid, we can include both the diagonals in Unit. Resulting in all the diagonal entries will have the corresponding diagonal entries as their peers.
+So constraint propagation is likely to get applied on the diagonal grid.
 
 ### Install
 
